@@ -76,7 +76,7 @@
         box-shadow: 0px 0px 20px 7px #000000;
     }
     #main a{
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .place_main{
@@ -91,7 +91,7 @@
         height: 10rem;
     }
     .place_content a{
-        font-size: 8px;
+        font-size: 15px;
     }
     .discover h2{
         font-size: 25px;
