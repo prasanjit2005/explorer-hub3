@@ -1,0 +1,228 @@
+<<<<<<< HEAD
+@media only screen and (max-width:800px ) and (min-width:700px) { 
+    /* body{
+        background-color: red;
+    } */
+     nav ul{
+        gap: 5px;
+     }
+     nav ul li a{
+        font-size: 1.3rem;
+     }
+     .logo img{
+        width: 8rem;
+     }
+     .intro-bg{
+        height: 38vh;
+     }
+     .intro_op{
+        height: 38vh;
+     }
+     .intro_content{
+        font-size: 2rem;
+        top: 2rem;
+     }
+     .about_content h2{
+        font-size: 3rem;
+     }
+     .about_content p {
+        font-size: 1.4rem;
+     }
+     .about{
+        height: 40vh;
+     }
+     .about_img{
+        height: 20rem;
+     }
+     .trending h2{
+        margin: 5px 30px;
+        font-size: 3rem;
+     }
+     .card_content{
+        height: 45%;
+     }
+     .card_content a {
+        top: 4rem;
+     }
+     .places h2{
+        font-size: 3rem;
+        margin: 12px 30px;
+     }
+     .places button{
+        left: 22px;
+     }
+     .place_main{
+        height: 30vh;
+        width: 21vw;
+     }
+     .place_content{
+        width: 20vw;
+     }
+     #main{
+        height: 30vh;
+        width: 35vw;
+     }
+     .place_card {
+        height: 35vh;
+     }
+     .place_content a{
+        font-size: 1rem;
+     }
+     #main a{
+        font-size: 1.5rem;
+     }
+     .discover h2{
+        font-size: 3rem;
+        margin: 10px 30px;
+     }
+     .discover_content{
+        height: 46%;
+        width: 23rem;
+     }
+     .outro{
+        height: 20vh;
+     }
+     .info {
+        width:30rem ;
+     }
+     .info h2{
+        font-size: 1.5rem;
+     }
+     .info p{
+        font-size: 1rem;
+     }
+     .link{
+        width: 10rem;
+     }
+     .link h2{
+        font-size: 1.2rem;
+     }
+     .link a {
+        margin: 8px 12px;
+        font-size: 1rem;
+     }
+     .social h2 {
+        font-size: 1.2rem;
+     }
+     .social{
+        width: 12rem;
+     }
+     .social a{
+        margin: 8px 12px;
+        font-size: 1rem;
+     }
+=======
+@media only screen and (max-width:800px ) and (min-width:700px) { 
+    /* body{
+        background-color: red;
+    } */
+     nav ul{
+        gap: 5px;
+     }
+     nav ul li a{
+        font-size: 1.3rem;
+     }
+     .logo img{
+        width: 8rem;
+     }
+     .intro-bg{
+        height: 38vh;
+     }
+     .intro_op{
+        height: 38vh;
+     }
+     .intro_content{
+        font-size: 2rem;
+        top: 2rem;
+     }
+     .about_content h2{
+        font-size: 3rem;
+     }
+     .about_content p {
+        font-size: 1.4rem;
+     }
+     .about{
+        height: 40vh;
+     }
+     .about_img{
+        height: 20rem;
+     }
+     .trending h2{
+        margin: 5px 30px;
+        font-size: 3rem;
+     }
+     .card_content{
+        height: 45%;
+     }
+     .card_content a {
+        top: 4rem;
+     }
+     .places h2{
+        font-size: 3rem;
+        margin: 12px 30px;
+     }
+     .places button{
+        left: 22px;
+     }
+     .place_main{
+        height: 30vh;
+        width: 21vw;
+     }
+     .place_content{
+        width: 20vw;
+     }
+     #main{
+        height: 30vh;
+        width: 35vw;
+     }
+     .place_card {
+        height: 35vh;
+     }
+     .place_content a{
+        font-size: 1rem;
+     }
+     #main a{
+        font-size: 1.5rem;
+     }
+     .discover h2{
+        font-size: 3rem;
+        margin: 10px 30px;
+     }
+     .discover_content{
+        height: 46%;
+        width: 23rem;
+     }
+     .outro{
+        height: 20vh;
+     }
+     .info {
+        width:30rem ;
+     }
+     .info h2{
+        font-size: 1.5rem;
+     }
+     .info p{
+        font-size: 1rem;
+     }
+     .link{
+        width: 10rem;
+     }
+     .link h2{
+        font-size: 1.2rem;
+     }
+     .link a {
+        margin: 8px 12px;
+        font-size: 1rem;
+     }
+     .social h2 {
+        font-size: 1.2rem;
+     }
+     .social{
+        width: 12rem;
+     }
+     .social a{
+        margin: 8px 12px;
+        font-size: 1rem;
+     }
+>>>>>>> a17823e243f8c71a7b266acdf092799f37707e14
+}

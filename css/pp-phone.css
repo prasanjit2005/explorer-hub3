@@ -1,0 +1,63 @@
+@media only screen and (max-width:420px) and (min-width:350px){
+    /* body{
+        background-color: red;
+    } */
+    nav ul{
+        gap: 0px;
+    }
+    .logo img{
+        width: 5rem;
+    }
+    nav ul li a{
+        font-size: 10px;
+    }
+    .heading h2{
+        font-size: 25px;
+    }
+    .heading{
+        top: 3.5rem;
+    }
+    .main{
+        width: 94vw;
+        top: 4rem;
+        flex-direction: column;
+    }
+    .lo-bg h2{
+        font-size: 20px;
+    }
+    .lo-bg img{
+        height: 3rem;
+    }
+    .lo-bg{
+        padding: 0px 0px;
+    }
+    .Location{
+        width: 50%;
+        height: 31.5rem;
+    }
+    
+    .lo-button button {
+        font-size: 15px;
+    }
+    .lo-button button a {
+        font-size: 15px;
+
+    }
+    .main-content{
+        flex-direction: column;
+        
+    }
+    div.main-content{
+        width: 100%;
+    }
+    .main-cards{
+        width: 100%;
+    }
+    .Grade{
+        position: absolute;
+        top: 12px;
+        right: 1rem;
+        width: 40%;
+        height: 12.5rem;
+    }
+}
