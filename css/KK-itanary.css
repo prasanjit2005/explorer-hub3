@@ -198,7 +198,13 @@
     z-index: -1;
     opacity: 0.2;
   }
+  @keyframes comeup {
+    from{right: 0rem;}
+    to{right: 10rem;}
+  }
   #img1 img{
+    animation-name: comeup;
+    animation-duration: 2s;
     right: 10rem;
     top: 105rem;
   }
@@ -209,4 +215,54 @@
   #img3 img{
     right: 10rem;
     top: 160rem;
+  }
+  @keyframes flicker {
+    from{transform:rotate(5deg);}
+    to{transform: rotate(-5deg);}
+  }
+  .itanary button{
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top:20px;;
+    background-color: #003161;
+    border: 3px solid #0055ff;
+    color: white;
+    animation-name: flicker;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  .itanary button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: 1s;
+    /* background: url("../img/itanary/KEDARKANTHA\ TREK\ \(1\).pdf"); */
+  }
+  .outro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  .outro h2{
+    font-size: 1.5rem;
+    background-color: #003161;
+    color: white;
+    font-weight: 600;
+    font-family: "Anton SC", sans-serif;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  .outro p{
+    margin-top: 35px;
+    font-size: 1.2rem;
+    font: 500;
+    font-family: "Anton SC", sans-serif;
+    width: 70%;
   }
