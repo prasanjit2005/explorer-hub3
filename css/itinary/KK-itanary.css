@@ -94,8 +94,10 @@
   }
   .gallary h2{
     margin: 12px 0px;
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: "Anton SC", sans-serif;
+    border-bottom: 5px solid #003161;
+    padding-bottom: 10px;
   }
 
   .gallary_container{
@@ -139,7 +141,7 @@
   }
   .book button{
     padding: 12px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     background-color: #003161;
     color: white;
     font-family: "Anton SC", sans-serif;
@@ -163,9 +165,10 @@
     gap: 10px;
     margin-top: 30px;
     font-family: "Anton SC", sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .content h2{
+    font-weight: 1000;
     padding-bottom: 5px;
     border-bottom: 5px solid #003161;
   }
@@ -173,6 +176,7 @@
     padding: 20px;
     padding-left: 40px;
     font-family: "Anton SC", sans-serif;
+    position: relative;
   }
   .itanary h1{
     margin: 20px 0px;
@@ -206,15 +210,15 @@
     animation-name: comeup;
     animation-duration: 2s;
     right: 10rem;
-    top: 105rem;
+    top: 10rem;
   }
   #img2 img{
     left: 10rem;
-    top: 130rem;
+    top: 30rem;
   }
   #img3 img{
     right: 10rem;
-    top: 160rem;
+    top: 60rem;
   }
   @keyframes flicker {
     from{transform:rotate(5deg);}
@@ -230,6 +234,9 @@
     background-color: #003161;
     border: 3px solid #0055ff;
     color: white;
+    position: absolute;
+    top: 1rem;
+    right: 5rem;
     animation-name: flicker;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -249,7 +256,7 @@
     margin-top: 15px;
   }
   .outro h2{
-    font-size: 1.5rem;
+    font-size: 2rem;
     background-color: #003161;
     color: white;
     font-weight: 600;
@@ -261,7 +268,7 @@
 }
   .outro p{
     margin-top: 35px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font: 500;
     font-family: "Anton SC", sans-serif;
     width: 70%;
