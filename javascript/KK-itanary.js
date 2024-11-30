@@ -29,3 +29,22 @@ function Download(){
     document.body.removeChild(link);
   
 }
+function Humtapass(){
+  
+    // Specify the URL of the PDF file
+    const pdfUrl = '../img/itanary/humtapass.pdf'; // Replace with your file URL
+
+    // Create a temporary link element
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.download = 'Humta-pass.pdf'; // Set the default file name
+    link.style.display = 'none';
+
+    // Add the link to the body and trigger the download
+    document.body.appendChild(link);
+    link.click();
+
+    // Remove the link element after download
+    document.body.removeChild(link);
+  
+}
