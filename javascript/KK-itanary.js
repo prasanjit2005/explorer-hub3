@@ -48,3 +48,22 @@ function Humtapass(){
     document.body.removeChild(link);
   
 }
+function Sarpass(){
+  
+    // Specify the URL of the PDF file
+    const pdfUrl = '../img/itanary/sarpass.pdf'; // Replace with your file URL
+
+    // Create a temporary link element
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.download = 'Sar-pass.pdf'; // Set the default file name
+    link.style.display = 'none';
+
+    // Add the link to the body and trigger the download
+    document.body.appendChild(link);
+    link.click();
+
+    // Remove the link element after download
+    document.body.removeChild(link);
+  
+}
