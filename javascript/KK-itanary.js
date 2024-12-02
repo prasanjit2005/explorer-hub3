@@ -67,3 +67,41 @@ function Sarpass(){
     document.body.removeChild(link);
   
 }
+function valley(){
+  
+    // Specify the URL of the PDF file
+    const pdfUrl = '../img/itanary/valleyofflowers.pdf'; // Replace with your file URL
+
+    // Create a temporary link element
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.download = 'Valley of Flowers.pdf'; // Set the default file name
+    link.style.display = 'none';
+
+    // Add the link to the body and trigger the download
+    document.body.appendChild(link);
+    link.click();
+
+    // Remove the link element after download
+    document.body.removeChild(link);
+  
+}
+function brahmatal(){
+  
+    // Specify the URL of the PDF file
+    const pdfUrl = '../img/itanary/brahmatal.pdf'; // Replace with your file URL
+
+    // Create a temporary link element
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.download = 'Bhekal Tal Brahmatal.pdf'; // Set the default file name
+    link.style.display = 'none';
+
+    // Add the link to the body and trigger the download
+    document.body.appendChild(link);
+    link.click();
+
+    // Remove the link element after download
+    document.body.removeChild(link);
+  
+}
