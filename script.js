@@ -109,3 +109,10 @@ document.body.querySelector("#North").addEventListener("click",e=>{
     document.body.querySelector("#img4 a").textContent="Manali"
     document.body.querySelector("#img2 a").textContent="Mussoorie"
 })
+
+document.querySelector(".hemburger").addEventListener("click",()=>{
+    document.querySelector("nav ul").style.right="0%"
+})
+document.querySelector(".cross").addEventListener("click",()=>{
+    document.querySelector("nav ul").style.right="-100%"
+})

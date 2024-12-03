@@ -17,17 +17,42 @@ nav{
     border-bottom: 5px solid #0055ff;
     
 }
+nav a{
+    text-decoration: none;
+    color: #1E201E;
+    /* color: white; */
+    font-size: 2rem;
+    font-weight: 500;
+    font-weight: 600;
+    /* padding-bottom: 15px; */
+}
+nav a:hover{
+    border-bottom: 5px solid #000000;
+    /* text-decoration:underline; */
+    color:#37AFE1;
+}
 nav ul{
     display: flex;
     justify-content:center;
     align-items: center;
     flex-wrap: wrap;
     gap: 40px;
+    transition: all .4s;
+    position: relative;
 }
 nav ul li{
     list-style: none;
     margin: 12px 5px;
     /* padding: 12px 12px; */
+}
+.hemburger{
+    display: none;
+}
+nav ul li img{
+    position: absolute;
+
+    display: none;
+    filter: invert(1);
 }
 nav ul li a{
     text-decoration: none;
@@ -38,6 +63,7 @@ nav ul li a{
     padding-bottom: 15px;
     
 }
+
 nav ul li a:hover{
     border-bottom: 5px solid #000000;
     /* text-decoration:underline; */

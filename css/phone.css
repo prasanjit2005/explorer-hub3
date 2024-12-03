@@ -1,5 +1,5 @@
 
-@media only screen and (max-width:420px) and (min-width:350px){
+@media only screen and (max-width:440px) and (min-width:340px){
     /* body{
         background-color: red;
     } */
@@ -8,9 +8,37 @@
     }
     .logo img{
         width: 5rem;
+        /* position: absolute; */
+        top: 25%;
+        left: -8%;
+    }
+    nav a{
+        font-size: 15px;
+        font-weight: 300;
+    }
+    nav ul{
+    position: absolute;
+    flex-direction: column;
+    background-color: #1E201E;
+    color: rgb(179, 179, 179);
+    gap: 0px;
+    top: 1%;
+    right: -100%;
+    width: 15rem;
     }
     nav ul li a{
-        font-size: 10px;
+        font-size: 20px;
+        color: white;
+        font-family: "Anton SC", sans-serif;
+    }
+    nav ul li img{
+        display: block;
+        top: 5%;
+        left: 5%;
+        width: 30px;
+    }
+    .hemburger{
+        display: block;
     }
     .intro-bg{
         height: 80vh;
